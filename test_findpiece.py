@@ -12,7 +12,7 @@ Tests every aspect of findpiece:
 Run with: python test_findpiece_4.py
 """
 
-from chess import (
+from chess_old import (
     Board, WHITE, BLACK,
     MoveNotationErrorSquareUnreachable,
     MoveNotationErrorLackOfSpecification,

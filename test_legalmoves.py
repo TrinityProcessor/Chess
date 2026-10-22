@@ -1,4 +1,4 @@
-from chess import Board, WHITE
+from chess_old import Board, WHITE
 
 
 def moves(board, color=WHITE):
