@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Keep this .gitignore file
+!.gitignore
+
+# Keep only these Python files
+!chess.py
+!test_findpiece.py
+!test_legalmoves.py
