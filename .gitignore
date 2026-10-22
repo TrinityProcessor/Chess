@@ -1,10 +1,21 @@
-# Ignore everything
-*
+# Python cache
+__pycache__/
+*.py[cod]
 
-# Keep this .gitignore file
-!.gitignore
+# Virtual environments
+.venv/
+venv/
+env/
 
-# Keep only these Python files
-!chess.py
-!test_findpiece.py
-!test_legalmoves.py
+# VS Code settings
+.vscode/
+
+# Test and tool caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
